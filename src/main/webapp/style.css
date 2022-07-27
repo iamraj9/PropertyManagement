@@ -1,0 +1,183 @@
+html {
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	width: 100vw;
+}
+
+.stranger {
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.signup_page {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background-color: rgba(1, 18, 32, 0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.hide {
+	display: none !important;
+}
+
+/* ====     menu setting      === */
+.nav-link {
+	background: none;
+	border: none;
+}
+
+/* ====================== Featured Cards =================== */
+.Featured_cards {
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.card-img-top {
+	height: 220px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.featured {
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 20px;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* =================Form ================= */
+.form-group {
+	padding: 10px
+}
+
+input,select {
+	margin: 10px 20px;
+	padding:0 20px;
+	box-sizing:border-box;
+	width:90%;
+}
+
+#navbarNav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbarNav {
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ====================== Featured Cards =================== */
+.Featured_cards {
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.card-img-top {
+	height: 220px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.featured {
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 20px;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+}
+
+.card {
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+#backgroundProperty {
+	background-color: rgba(0, 0, 0, 0.288);
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background-color: rgba(1, 18, 32, 0.5);
+}
+
+.PropertyBG {
+	background-color: aliceblue;
+	width: 600px;
+	box-sizing: border-box;
+	align-items: center;
+	align-content: center;
+	margin: 15px;
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+	flex-flow: column;
+}
+
+.background {
+	position: absolute;
+	display: flex;
+	top: 60px;
+	left: 0;
+	right: 0;
+	z-index:50;
+}
+
+#backgroundAppointment {
+	background-color: rgba(0, 0, 0, 0.288);
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background-color: rgba(1, 18, 32, 0.5);
+}
+
+#backgroundUser {
+	background-color: rgba(0, 0, 0, 0.288);
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background-color: rgba(1, 18, 32, 0.5);
+}
+
+.popup {
+	background-color: rgba(0, 0, 0, 0.288);
+	min-height: 100%;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	background-color: rgba(1, 18, 32, 0.5);
+}
+.card{
+	box-shadow:0 0 3px;
+	border-radius: 35px;
+}
+.book_button{
+	width:100%;
+	text-align:center;
+	margin-bottom:5px;
+}
